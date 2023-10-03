@@ -1,0 +1,15 @@
+# list numbers from 0 to 100. If any are muliplies of 2 print two. If any are muliplies of 3 print three. If any are both print Wow.
+
+num=range(0, 101)
+
+for n in num:
+    if n == 0:
+        print(n)
+    elif n%2 == 0 and n%3 == 0:
+        print("WOW")
+    elif n%2 == 0:
+        print("two")
+    elif n%3 == 0:
+        print("three")
+    else:
+        print(n)
